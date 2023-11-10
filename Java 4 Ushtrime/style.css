@@ -1,0 +1,131 @@
+.fotografit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.fotografit  .rubrika{
+    width: 22%;
+    height: 10%;
+    margin: 1%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.headeri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+}
+
+header .catalog{
+    padding-left: 10px;
+    color: lightblue;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+ul li{
+    padding: 10px;
+
+}
+
+.latestvideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.views_date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+.bgfoto{
+    background-image: url(hero.jpg);
+    background-position: -60px;
+    min-height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.search{
+    display: flex;
+    
+
+}
+
+.permifooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_prev_next{
+
+    width: 100px;
+    height: 40px;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: #e6ffff;
+    color:  #cccccc;
+    margin-top: 50px;
+   
+}
+
+.footermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footerleft{
+    width: 22%;
+}
+
+.wrap{
+    word-wrap: break-word;
+}
+
+.fundi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.color{
+    color: #00aaff;
+}
+
+.footerright img{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
